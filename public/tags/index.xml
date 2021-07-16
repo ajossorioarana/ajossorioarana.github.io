@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Arturo J. Ossorio Arana</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Arturo J. Ossorio Arana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Thu, 15 Oct 2020 18:59:39 -0300</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ecohydrology</title>
+      <link>/tags/ecohydrology/</link>
+      <pubDate>Thu, 15 Oct 2020 18:59:39 -0300</pubDate>
+      
+      <guid>/tags/ecohydrology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Thu, 15 Oct 2020 18:59:39 -0300</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>limnology</title>
+      <link>/tags/limnology/</link>
+      <pubDate>Tue, 30 Jun 2020 10:10:07 -0300</pubDate>
+      
+      <guid>/tags/limnology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tsi</title>
+      <link>/tags/tsi/</link>
+      <pubDate>Tue, 30 Jun 2020 10:10:07 -0300</pubDate>
+      
+      <guid>/tags/tsi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lake</title>
+      <link>/tags/lake/</link>
+      <pubDate>Fri, 19 Jun 2020 10:10:07 -0300</pubDate>
+      
+      <guid>/tags/lake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management</title>
+      <link>/tags/management/</link>
+      <pubDate>Fri, 19 Jun 2020 10:10:07 -0300</pubDate>
+      
+      <guid>/tags/management/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

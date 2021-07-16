@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>TSI Calculator - Arturo J. Ossorio Arana</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="TSI Calculator" />
+<meta property="og:description" content="So the other day I was talking to my wife, letting out my frustrations about work and interests. She listened attentively how I ramble about my curiosity for programming and how it could be used (and it&rsquo;s used) to solve or analyze hydraulic, hydrological and limnological problems." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/projects/tsi_calculator/" /><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2020-06-30T10:10:07-03:00" />
+<meta property="article:modified_time" content="2020-06-30T10:10:07-03:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="TSI Calculator"/>
+<meta name="twitter:description" content="So the other day I was talking to my wife, letting out my frustrations about work and interests. She listened attentively how I ramble about my curiosity for programming and how it could be used (and it&rsquo;s used) to solve or analyze hydraulic, hydrological and limnological problems."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="/css/dark.css" media="(prefers-color-scheme: dark)" />
+	<link rel="stylesheet" type="text/css" href="/css/custom-dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="/js/main.js"></script>
+	<script src="/js/abc.js"></script>
+	<script src="/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="/">
+	<h1 class="site-title"><a href="/">Arturo J. Ossorio Arana</a></h1>
+	<div class="site-description"><h2>Civil Engineer | Ecohydrologist | Aspiring Data Scientist | Father of two.</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/ajossorioarana" title="Github"><i data-feather="github"></i></a><a href="https://www.linkedin.com/in/arturo-jos%C3%A9-ossorio-arana-3a133851" title="LinkedIn"><i data-feather="linkedin"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/blog">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/projects">Projects</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">TSI Calculator</h1>
+			<div class="meta">Posted at &mdash; Jun 30, 2020</div>
+		</div>
+
+		<div class="markdown">
+			<p>So the other day I was talking to my wife, letting out my frustrations about work and interests. She listened attentively how I ramble about my curiosity for programming and how it could be used (and it&rsquo;s used) to solve or analyze hydraulic, hydrological and limnological problems. She pondered, watching how my ideas where starting to drown in an endless sea of actionless, and after taking a breath she said:</p>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>&ldquo;Stop rambling and do SOMETHING!&rdquo;</p>
+  <footer>
+    <strong>My wife</strong>
+    
+      
+        
+      
+    
+  </footer>
+</blockquote>
+<p>And so, after the call to action urged by my wife, I began to work on some small projects I&rsquo;ve considered over the previous months.</p>
+<p>The first one is a <strong>TSI calculator</strong>.</p>
+<h3 id="tsi---what-the-heck-is-that">TSI - What the heck is that?</h3>
+<p><a href="https://w.wiki/VgB">TSI</a> stands for <em>Trophic State Index</em>. It&rsquo;s a measure of the eutrophication of the water body. Here is a short video that illustrates this concept:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/mLbDbmmV6Qc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>I chose to limit the project to Carlson&rsquo;s TSI and the modifications made by Aizaki (1981). These indexes take into account the <strong>Secchi depth</strong> (<strong>SD</strong>) measurement, the <strong>total phosphorus</strong> (<strong>TP</strong>) and <strong>chlorophyll-a</strong> (<strong>Chl-a</strong>) measurement.</p>
+<p>To be fair, I don&rsquo;t think there is a need for this. The potential users of this script are limnologist, ecologist or aquatic biologist who need to asses the trophic state, but they alredy develop and use their simple but reliable Excel sheets to do the job.</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/limnology">limnology</a></li>
+								
+								<li><a href="/tags/tsi">tsi</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Copyright notice |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>
