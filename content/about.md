@@ -27,7 +27,7 @@ Used to play guitar and do vocals at an argentine traditional folk group, [**Los
 
 Consider reading by a fireplace with a glass of whisky as a sanity preserver (Although beer or wine could do the trick)
 
-Love going to the countryside or lake, sharing an *asado* and *guitarreada* with family and friends.
+Love going to the countryside or lake, sharing an *asado* and *guitarreada* with friends and family..
 
 
 [UBA]: http://www.fi.uba.ar/
