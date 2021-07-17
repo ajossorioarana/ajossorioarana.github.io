@@ -15,7 +15,7 @@ Trying to finish a MSc degree in **Ecohydrology** at [**UNLP**][UNLP] (Universid
 
 Main areas of interest consists in **hydrology**, **ecohydrology**, **limnology**, **irrigation**, **watershed management** and **data science**. 
 
-Delving for some time into **Python**, **SQL** and **GIS**, with some success, but picking up steam in this direction.
+Delving for some time into **Python**, **SQL**, **Git**, **GitHub** and **GIS**, with some success, but picking up steam in this direction.
 
 Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as head of technical department. Also doing some independent consulting.
 
