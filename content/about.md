@@ -15,9 +15,9 @@ Trying to finish a MSc degree in **Ecohydrology** at [**UNLP**][UNLP] (Universid
 
 Main areas of interest consists in **hydrology**, **ecohydrology**, **limnology**, **irrigation**, **watershed management** and **data science**. 
 
-Delving for some time into **Python**, **SQL**, **Git**, **GitHub** and **GIS**, with some success, but picking up steam in this direction.
+Delving for some time into **Python**, **SQL** and **GIS**. Picking up steam in this direction.
 
-Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as head of technical department. Also doing some independent consulting.
+Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as head of technical department. Also doing some freelance consulting.
 
 Graduate Teaching Assistant at [**UBA**][UBA] in the course "**Applied Hydraulics**" (Presurized pipe flow | Pump selection | Water hammer | Open channel flow | Weir design | Culvert design)
 
@@ -27,7 +27,7 @@ Used to play guitar and do vocals at an argentine traditional folk group, [**Los
 
 Consider reading by a fireplace with a glass of whisky as a sanity preserver (Although beer or wine could do the trick)
 
-Love going to the countryside or lake, sharing an *asado* and *guitarreada* with friends and family..
+Love going to the countryside or lake, sharing an *asado* and *guitarreada* with friends and family.
 
 
 [UBA]: http://www.fi.uba.ar/
