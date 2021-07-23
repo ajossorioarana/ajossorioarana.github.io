@@ -13,7 +13,7 @@ Currently living in **San Martín de los Andes**.
 
 Trying to finish a MSc degree in **Ecohydrology** at [**UNLP**][UNLP] (Universidad Nacional de La Plata). Defining scope and objectives of thesis with directors.
 
-Main areas of interest consists in **hydrology**, **ecohydrology**, **limnology**, **irrigation**, **watershed management** and **data science**. 
+Main areas of interest consists in **ecohydrology**, **ecohydraulics**, **limnology** and **data science**.
 
 Delving for some time into **Python**, **SQL** and **GIS**. Picking up steam in this direction.
 

@@ -84,6 +84,11 @@ icon = "github"
 url = "https://github.com/ajossorioarana"
 
 [[params.social]]
+name = "Kaggle"
+icon = "database"
+url = "https://www.kaggle.com/ajossorioarana"
+
+[[params.social]]
 name = "LinkedIn"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/arturo-jos%C3%A9-ossorio-arana-3a133851"
