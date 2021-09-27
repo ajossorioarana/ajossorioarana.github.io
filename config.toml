@@ -25,7 +25,7 @@ enableEmoji = true
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Civil Engineer | Ecohydrologist | Aspiring Data Scientist | Father of two."
+    subtitle = "Ecohydrologist | Data Scientist | Father of two."
 
     # Content types which are included in home page recent posts list.
     mainSections = ["blog", "projects"]
@@ -79,6 +79,11 @@ weight = 4
 # Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
 [[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/ajossorioarana"
+
+[[params.social]]
 name = "Github"
 icon = "github"
 url = "https://github.com/ajossorioarana"
@@ -87,11 +92,6 @@ url = "https://github.com/ajossorioarana"
 name = "Kaggle"
 icon = "database"
 url = "https://www.kaggle.com/ajossorioarana"
-
-[[params.social]]
-name = "LinkedIn"
-icon = "linkedin"
-url = "https://www.linkedin.com/in/ajossorioarana"
 
 # Enable tags.
 [taxonomies]

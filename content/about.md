@@ -7,17 +7,15 @@ draft: false
 
 Born and raised in **Buenos Aires, Argentina**. 
 
-Currently living in **San Martín de los Andes**.
+Currently living in **San Martín de los Andes, Argentina**.
 
-**Civil Engineer** from [**UBA**][UBA] (Universidad de Buenos Aires).
+MEng in **Civil Engineer** from [**UBA**][UBA] (Universidad de Buenos Aires).
 
-Trying to finish a MSc degree in **Ecohydrology** at [**UNLP**][UNLP] (Universidad Nacional de La Plata). Defining scope and objectives of thesis with directors.
+Finishing a MSc degree in **Ecohydrology** at [**UNLP**][UNLP] (Universidad Nacional de La Plata). Defining scope and objectives of thesis with directors.
 
-Main areas of interest consists in **ecohydrology**, **ecohydraulics**, **limnology** and **data science**.
+Main areas of interest consists in **ecohydrology**, **data science**, **ecohydraulics** and **limnology**.
 
-Delving for some time into **Python**, **SQL** and **GIS**. Picking up steam in this direction.
-
-Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as head of technical department. Also doing some freelance consulting.
+Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as Biology Project Manager. Also doing some freelance consulting.
 
 Graduate Teaching Assistant at [**UBA**][UBA] in the course "**Applied Hydraulics**" (Presurized pipe flow | Pump selection | Water hammer | Open channel flow | Weir design | Culvert design)
 
