@@ -13,13 +13,13 @@ MEng in **Civil Engineer** from [**UBA**][UBA] (Universidad de Buenos Aires).
 
 Finishing a MSc degree in **Ecohydrology** at [**UNLP**][UNLP] (Universidad Nacional de La Plata). Defining scope and objectives of thesis with directors.
 
-Main areas of interest consists in **ecohydrology**, **data science**, **ecohydraulics** and **limnology**.
+Main areas of interest consists in **data science**, **geospatial information**, **ecohydrology** and **limnology**.
 
 Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as Biology Project Manager. Also doing some freelance consulting.
 
 Graduate Teaching Assistant at [**UBA**][UBA] in the course "**Applied Hydraulics**" (Presurized pipe flow | Pump selection | Water hammer | Open channel flow | Weir design | Culvert design)
 
-Succesfully found and married and amazing woman, who by the way gave birth to my firstborn and is expecting our second child.
+Succesfully found and married and amazing woman, who by the way gave birth to our two sons.
 
 Used to play guitar and do vocals at an argentine traditional folk group, [**Los Pulperos**][SPOTIFY]. We are not active anymore, but still perform from time to time.
 
