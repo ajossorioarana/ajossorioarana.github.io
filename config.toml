@@ -76,6 +76,11 @@ name = "Tags"
 url = "/tags"
 weight = 4
 
+[[menu.main]]
+name = "Resumé"
+url = "/files/resume.pdf"
+weight = 5
+
 # Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
 [[params.social]]
@@ -88,10 +93,6 @@ name = "Github"
 icon = "github"
 url = "https://github.com/ajossorioarana"
 
-[[params.social]]
-name = "Resumé"
-icon = "user"
-url = "./resources/resume.pdf"
 
 # Enable tags.
 [taxonomies]
