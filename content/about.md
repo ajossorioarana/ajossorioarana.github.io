@@ -1,6 +1,6 @@
 ---
 title: "Who am I"
-date: 2021-06-20T10:06:42-03:00
+date: 2021-12-06T10:06:42-03:00
 type: "page"
 draft: false
 ---
@@ -17,13 +17,13 @@ Main areas of interest consists in **data science**, **geospatial information**,
 
 Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as Biology Project Manager. Also doing some freelance consulting.
 
-Graduate Teaching Assistant at [**UBA**][UBA] in the course "**Applied Hydraulics**" (Presurized pipe flow | Pump selection | Water hammer | Open channel flow | Weir design | Culvert design)
+Graduate Teaching Assistant at [**UBA**][UBA] in the course "**Applied Hydraulics**" (Presurized pipe flow | Pump selection | Water hammer | Open channel flow | Weir design | Culvert design).
 
-Succesfully found and married and amazing woman, who by the way gave birth to our two sons.
+Succesfully found and married and amazing woman who gave birth to our two sons.
 
 Used to play guitar and do vocals at an argentine traditional folk group, [**Los Pulperos**][SPOTIFY]. We are not active anymore, but still perform from time to time.
 
-Consider reading by a fireplace with a glass of whisky as a sanity preserver (Although beer or wine could do the trick)
+Consider reading by a fireplace with a glass of whisky as a sanity preserver (Although beer or wine could do the trick).
 
 Love going to the countryside or lake, sharing an *asado* and *guitarreada* with friends and family.
 

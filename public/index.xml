@@ -2,48 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arturo J. Ossorio Arana</title>
-    <link>/</link>
+    <link>https://ajossorioarana.github.io/</link>
     <description>Recent content on Arturo J. Ossorio Arana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Thu, 15 Oct 2020 18:59:39 -0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Copyright notice</copyright><atom:link href="https://ajossorioarana.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who am I</title>
-      <link>/about/</link>
-      <pubDate>Sun, 20 Jun 2021 10:06:42 -0300</pubDate>
+      <link>https://ajossorioarana.github.io/about/</link>
+      <pubDate>Mon, 06 Dec 2021 10:06:42 -0300</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://ajossorioarana.github.io/about/</guid>
       <description>Born and raised in Buenos Aires, Argentina.
-Currently living in San Martín de los Andes.
-Civil Engineer from UBA (Universidad de Buenos Aires).</description>
-    </item>
-    
-    <item>
-      <title>Matplotlib</title>
-      <link>/projects/matplotlib/</link>
-      <pubDate>Thu, 15 Oct 2020 18:59:39 -0300</pubDate>
-      
-      <guid>/projects/matplotlib/</guid>
-      <description>It always perplex me how my whole attention can be zapped by a small and not-so-important detail of the work at hand.</description>
-    </item>
-    
-    <item>
-      <title>TSI Calculator</title>
-      <link>/projects/tsi_calculator/</link>
-      <pubDate>Tue, 30 Jun 2020 10:10:07 -0300</pubDate>
-      
-      <guid>/projects/tsi_calculator/</guid>
-      <description>So the other day I was talking to my wife, letting out my frustrations about work and interests. She listened attentively how I ramble about my curiosity for programming and how it could be used (and it&amp;rsquo;s used) to solve or analyze hydraulic, hydrological and limnological problems.</description>
-    </item>
-    
-    <item>
-      <title>Great Expectations: Not Dicken&#39;s but client&#39;s</title>
-      <link>/blog/communication/</link>
-      <pubDate>Fri, 19 Jun 2020 10:10:07 -0300</pubDate>
-      
-      <guid>/blog/communication/</guid>
-      <description>Note: This is my first article. I&amp;rsquo;m not in mood of making a &amp;ldquo;welcome, the blog is open&amp;rdquo; type of post, so instead I&amp;rsquo;ve decided to discuss some other topic that is interesting me.</description>
+Currently living in San Martín de los Andes, Argentina.
+MEng in Civil Engineer from UBA (Universidad de Buenos Aires).</description>
     </item>
     
   </channel>
