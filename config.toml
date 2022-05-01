@@ -77,7 +77,7 @@ url = "/tags"
 weight = 4
 
 [[menu.main]]
-name = "Resumé"
+name = "Resume"
 url = "/files/resume.pdf"
 weight = 5
 

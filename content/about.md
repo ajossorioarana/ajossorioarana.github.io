@@ -1,13 +1,13 @@
 ---
 title: "Who am I"
-date: 2021-12-06T10:06:42-03:00
+date: 2022-05-01T10:06:42-03:00
 type: "page"
 draft: false
 ---
 
 Born and raised in **Buenos Aires, Argentina**. 
 
-Currently living in **San Martín de los Andes, Argentina**. Moved here some time ago and won't relocate if possible (How can anyone escape [*this*][SMAndes]?).
+Currently living in **San Martín de los Andes, Argentina**. Moved here some time ago and won't relocate if possible (How can anyone want to escape [*this*][SMAndes]?).
 
 MEng in **Civil Engineer** from [**UBA**][UBA] (Universidad de Buenos Aires).
 
