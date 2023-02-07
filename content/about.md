@@ -1,6 +1,6 @@
 ---
 title: "Who am I"
-date: 2022-02-0T10:06:42-03:00
+date: 2022-02-07T10:06:42-03:00
 type: "page"
 draft: false
 ---
@@ -15,7 +15,9 @@ Finishing a MSc degree in **Ecohydrology** at [**UNLP**][UNLP] (Universidad Naci
 
 Main areas of interest consists in **data science** and **geospatial information**, mainly related to **ecohydrology** and **limnology**.
 
-Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as **Limnologist | Data Analyst**. Also doing some freelance consulting.
+Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as **Limnologist / Data Analyst**.
+
+Also doing some freelance consulting regarding Python programming for a photovoltaic data science project.
 
 Succesfully found and married and amazing woman who gave birth to our two sons.
 
