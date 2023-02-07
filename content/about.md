@@ -1,43 +1,27 @@
 ---
 title: "Who am I"
-date: 2022-05-01T10:06:42-03:00
+date: 2022-02-0T10:06:42-03:00
 type: "page"
 draft: false
 ---
 
 Born and raised in **Buenos Aires, Argentina**. 
 
-Currently living in **San Martín de los Andes, Argentina**. Moved here some time ago and won't relocate if possible (How can anyone want to escape [*this*][SMAndes]?).
+Currently living in **San Martín de los Andes, Argentina**. Moved here some time ago and trying to enjoy the [surroundings][SMAndes] as much as I can.
 
-MEng in **Civil Engineer** from [**UBA**][UBA] (Universidad de Buenos Aires).
+BEng in **Civil Engineer** from [**UBA**][UBA] (Universidad de Buenos Aires).
 
 Finishing a MSc degree in **Ecohydrology** at [**UNLP**][UNLP] (Universidad Nacional de La Plata). Defining scope and objectives of thesis with directors.
 
-Main areas of interest consists in **data science**, **geospatial information**, **ecohydrology** and **limnology**.
+Main areas of interest consists in **data science** and **geospatial information**, mainly related to **ecohydrology** and **limnology**.
 
-Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as Limnologist|Data Analyst. Also doing some freelance consulting.
-
-Graduate Teaching Assistant at [**UBA**][UBA] in the course "**Applied Hydraulics**" (Presurized pipe flow | Pump selection | Water hammer | Open channel flow | Weir design | Culvert design).
+Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as **Limnologist | Data Analyst**. Also doing some freelance consulting.
 
 Succesfully found and married and amazing woman who gave birth to our two sons.
 
-Used to play guitar and do vocals at an argentine traditional folk group, [**Los Pulperos**][SPOTIFY]. We are not active anymore, but still perform from time to time.
+Used to play guitar and do vocals at an traditional Argentine folk ensemble, [**Los Pulperos**][SPOTIFY]. We are not active anymore, but still perform from time to time.
 
-When I'm not working you can probably find me: 
-
-+ Reading
-+ Cooking
-+ Hiking
-+ Playing soccer (extremely amateurly)
-+ Camping
-+ Playing the guitar and singing (mainly) folk songs
-
-Some activities I am trying to move towards the list above:
-
-+ Fly fishing
-+ Skiing
-+ Amateur radio
-+ Playing the mandolin
+When I'm not working you can probably find me reading, cooking, playing traditional Argentine folk music, doing amateur radio, fly fishing or just having a good time with family or friends.
 
 
 [UBA]: http://www.fi.uba.ar/
