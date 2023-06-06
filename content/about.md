@@ -1,29 +1,27 @@
 ---
-title: "Who am I"
-date: 2022-02-07T10:06:42-03:00
+title: "About Arturo"
+date: 2023-06-06T10:06:42-03:00
 type: "page"
 draft: false
 ---
 
 Born and raised in **Buenos Aires, Argentina**. 
 
-Currently living in **San Martín de los Andes, Argentina**. Moved here some time ago and trying to enjoy the [surroundings][SMAndes] as much as I can.
+Currently living in **San Martín de los Andes, Argentina**, trying to enjoy the [surroundings][SMAndes] as much as possible.
 
 BEng in **Civil Engineer** from [**UBA**][UBA] (Universidad de Buenos Aires).
 
 Finishing a MSc degree in **Ecohydrology** at [**UNLP**][UNLP] (Universidad Nacional de La Plata). Defining scope and objectives of thesis with directors.
 
-Main areas of interest consists in **data science** and **geospatial information**, mainly related to **ecohydrology** and **limnology**.
+Main areas of interest consists in applicaton of **coding** and **data** to tackle applied **ecohydrology** and **limnology** issues.
 
 Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as **Limnologist / Data Analyst**.
 
-Also doing some freelance consulting regarding Python programming for a photovoltaic data science project.
+Doing freelance Python programming for a photovoltaic consultic data science project.
 
-Succesfully found and married and amazing woman who gave birth to our two sons.
+Used to play guitar and do vocals at an traditional Argentine folk ensemble, [**Los Pulperos**][SPOTIFY]. Not active anymore, but still perform from time to time.
 
-Used to play guitar and do vocals at an traditional Argentine folk ensemble, [**Los Pulperos**][SPOTIFY]. We are not active anymore, but still perform from time to time.
-
-When I'm not working you can probably find me reading, cooking, playing traditional Argentine folk music, doing amateur radio, fly fishing or just having a good time with family or friends.
+When not working you can probably find Arturo reading, cooking, playing Argentine folk music, doing amateur radio, fly fishing or just having a good time with family or friends.
 
 
 [UBA]: http://www.fi.uba.ar/
