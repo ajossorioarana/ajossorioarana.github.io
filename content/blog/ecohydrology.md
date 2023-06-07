@@ -25,6 +25,8 @@ Water is the foundation of life on Earth, and its availability and quality are v
 	<script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("cd52e831-399a-403d-9bb2-0c56214b1d38", [{"type": "pie", "values": [4500, 2500, 1053, 500], "labels": ["Oxygen", "Hydrogen", "Carbon_Dioxide", "Nitrogen"]}], {}, {"linkText": "Export to plot.ly", "showLink": true})</script>
 {{< /rawhtml >}}
 
+*Plotly graph taken from [Kellie Ottoboni's website](http://www.kellieottoboni.com/posts/2017/08/plotly-markup/)*
+
 # Methodologies in Ecohydrology
 
 + **Field Observations**: Field measurements are essential for collecting data on water flow, vegetation characteristics, soil moisture, and other relevant parameters. Techniques such as stream gauging, soil sampling, and vegetation surveys provide valuable information for understanding ecosystem-water interactions. These observations help validate models and provide ground-truth data for analysis.
