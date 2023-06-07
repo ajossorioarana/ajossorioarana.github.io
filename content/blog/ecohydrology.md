@@ -19,6 +19,12 @@ Water is the foundation of life on Earth, and its availability and quality are v
 
 + **Hydrological Connectivity**: Ecohydrology emphasizes the importance of hydrological connectivity, which refers to the movement of water and nutrients between different components of a landscape. Connectivity determines the spatial and temporal distribution of water resources and influences the functioning and productivity of ecosystems. Examining the connectivity between surface water bodies, groundwater, and adjacent ecosystems provides insights into the overall health and functioning of the ecosystem.
 
+{{< rawhtml >}}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <div id="cd52e831-399a-403d-9bb2-0c56214b1d38" style="height: 100%; width: 100%;" class="plotly-graph-div"></div>
+	<script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("cd52e831-399a-403d-9bb2-0c56214b1d38", [{"type": "pie", "values": [4500, 2500, 1053, 500], "labels": ["Oxygen", "Hydrogen", "Carbon_Dioxide", "Nitrogen"]}], {}, {"linkText": "Export to plot.ly", "showLink": true})</script>
+{{< /rawhtml >}}
+
 # Methodologies in Ecohydrology
 
 + **Field Observations**: Field measurements are essential for collecting data on water flow, vegetation characteristics, soil moisture, and other relevant parameters. Techniques such as stream gauging, soil sampling, and vegetation surveys provide valuable information for understanding ecosystem-water interactions. These observations help validate models and provide ground-truth data for analysis.
