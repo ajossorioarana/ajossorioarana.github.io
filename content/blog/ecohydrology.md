@@ -17,6 +17,17 @@ Water is the foundation of life on Earth, and its availability and quality are v
 
 + **Vegetation-Water Interactions**: Vegetation plays a crucial role in regulating water dynamics within ecosystems. Through transpiration, plants draw water from the soil and release it into the atmosphere, influencing local moisture conditions and affecting the hydrological cycle. Understanding the water uptake patterns of different vegetation types helps in predicting the impacts of land use changes and vegetation shifts on water resources.
 
+*This is a sample of code*
+```python
+def some_funct()
+    # Some commment in the code
+    a = np.array()
+    df = pd.DataFrame()
+
+    return
+
+```
+
 + **Hydrological Connectivity**: Ecohydrology emphasizes the importance of hydrological connectivity, which refers to the movement of water and nutrients between different components of a landscape. Connectivity determines the spatial and temporal distribution of water resources and influences the functioning and productivity of ecosystems. Examining the connectivity between surface water bodies, groundwater, and adjacent ecosystems provides insights into the overall health and functioning of the ecosystem.
 
 {{< rawhtml >}}

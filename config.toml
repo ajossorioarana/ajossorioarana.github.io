@@ -6,7 +6,7 @@ theme = "ezhil"
 copyright = "© CC-BY-4.0"
 
 # Enable syntax highlighting.
-pygmentsstyle = "solarized-dark"
+pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
@@ -19,13 +19,13 @@ googleAnalytics = "UA-123-45"
 paginate = 10
 
 # Number of characters to show in summary.
-summaryLength = 20
+summaryLength = 50
 
 enableEmoji = true
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Ecohydrology | Data | Modelling"
+    subtitle = "Data & Modeling in Ecohydrology's Dynamic & Rich Tapestry"
 
     # Content types which are included in home page recent posts list.
     mainSections = ["blog", "projects"]
@@ -37,7 +37,7 @@ enableEmoji = true
     featherIconsCDN = true
 
     # Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
-    favicon = "icons/myicon.png"
+    favicon = "icons/nature.png"
 
     # Switch to dark mode or auto detect mode from OS (Optional).
     # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
