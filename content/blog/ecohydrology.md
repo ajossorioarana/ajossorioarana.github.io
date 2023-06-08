@@ -2,6 +2,7 @@
 title: "Ecohydrology: Investigating the Interactions between Ecosystems and Water"
 date: 2023-06-03T20:00:00-03:00
 draft: false
+plotly: true
 ---
 ***NOTE*: This is placeholder text, generated with AI**
 
@@ -11,12 +12,6 @@ Ecohydrology is an interdisciplinary field that explores the complex interaction
 # The Water-Ecosystem Nexus
 Water is the foundation of life on Earth, and its availability and quality are vital for sustaining healthy ecosystems. Ecosystems, including forests, wetlands, rivers, and lakes, interact with water through various biophysical and ecological processes. At the same time, these ecosystems significantly influence water quantity, quality, and flow patterns, creating a dynamic feedback loop known as the water-ecosystem nexus.
 
-# Key Concepts in Ecohydrology
-
-+ **Water Balance**: Ecohydrology focuses on understanding the water balance within ecosystems, considering inputs, outputs, and storage. Inputs include precipitation and surface water inflows, while outputs include evapotranspiration, surface runoff, and groundwater recharge. By quantifying the water balance, ecohydrologists can assess the overall water availability and identify the factors influencing it.
-
-+ **Vegetation-Water Interactions**: Vegetation plays a crucial role in regulating water dynamics within ecosystems. Through transpiration, plants draw water from the soil and release it into the atmosphere, influencing local moisture conditions and affecting the hydrological cycle. Understanding the water uptake patterns of different vegetation types helps in predicting the impacts of land use changes and vegetation shifts on water resources.
-
 *This is a sample of code*
 ```python
 def some_funct()
@@ -25,18 +20,20 @@ def some_funct()
     df = pd.DataFrame()
 
     return
-
 ```
+
+# Key Concepts in Ecohydrology
+
++ **Water Balance**: Ecohydrology focuses on understanding the water balance within ecosystems, considering inputs, outputs, and storage. Inputs include precipitation and surface water inflows, while outputs include evapotranspiration, surface runoff, and groundwater recharge. By quantifying the water balance, ecohydrologists can assess the overall water availability and identify the factors influencing it.
+
++ **Vegetation-Water Interactions**: Vegetation plays a crucial role in regulating water dynamics within ecosystems. Through transpiration, plants draw water from the soil and release it into the atmosphere, influencing local moisture conditions and affecting the hydrological cycle. Understanding the water uptake patterns of different vegetation types helps in predicting the impacts of land use changes and vegetation shifts on water resources.
+
+{{< plotly json="/plotly/secchi_depth.json" height="400px" >}}
+
+*NOTE: This is a sample of a plotly graph*
 
 + **Hydrological Connectivity**: Ecohydrology emphasizes the importance of hydrological connectivity, which refers to the movement of water and nutrients between different components of a landscape. Connectivity determines the spatial and temporal distribution of water resources and influences the functioning and productivity of ecosystems. Examining the connectivity between surface water bodies, groundwater, and adjacent ecosystems provides insights into the overall health and functioning of the ecosystem.
 
-{{< rawhtml >}}
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <div id="cd52e831-399a-403d-9bb2-0c56214b1d38" style="height: 100%; width: 100%;" class="plotly-graph-div"></div>
-	<script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("cd52e831-399a-403d-9bb2-0c56214b1d38", [{"type": "pie", "values": [4500, 2500, 1053, 500], "labels": ["Oxygen", "Hydrogen", "Carbon_Dioxide", "Nitrogen"]}], {}, {"linkText": "Export to plot.ly", "showLink": true})</script>
-{{< /rawhtml >}}
-
-*Plotly graph taken from [Kellie Ottoboni's website](http://www.kellieottoboni.com/posts/2017/08/plotly-markup/)*
 
 # Methodologies in Ecohydrology
 
