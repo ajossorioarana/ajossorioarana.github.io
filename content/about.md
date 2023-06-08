@@ -17,7 +17,7 @@ Main areas of interest consists in applicaton of **coding** and **data** to tack
 
 Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as **Limnologist / Data Analyst**.
 
-Doing freelance Python programming for a photovoltaic consultic data science project.
+Doing freelance Python programming for a photovoltaic consulting data science project.
 
 Used to play guitar and do vocals at an traditional Argentine folk ensemble, [**Los Pulperos**][SPOTIFY]. Not active anymore, but still perform from time to time.
 
