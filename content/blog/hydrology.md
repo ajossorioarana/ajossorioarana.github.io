@@ -2,7 +2,8 @@
 title: "Introduction to Hydrology: Understanding the Water Cycle and Its Processes"
 date: 2023-06-01T20:00:00-03:00
 draft: false
-tags : ["hydrology-101", "hydrology"]
+tags : ["hydrology-101", "hydrology", "testing"]
+description: "A very short introduction to hydrology"
 ---
 
 ***NOTE*: This is placeholder text, generated with AI**

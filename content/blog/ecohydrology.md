@@ -3,6 +3,8 @@ title: "Ecohydrology: Investigating the Interactions between Ecosystems and Wate
 date: 2023-06-03T20:00:00-03:00
 draft: false
 plotly: true
+tags: ["ecohydrology", "testing"]
+description: "A resume on key concepts of ecohydrology"
 ---
 ***NOTE*: This is placeholder text, generated with AI**
 
@@ -28,7 +30,7 @@ def some_funct()
 
 + **Vegetation-Water Interactions**: Vegetation plays a crucial role in regulating water dynamics within ecosystems. Through transpiration, plants draw water from the soil and release it into the atmosphere, influencing local moisture conditions and affecting the hydrological cycle. Understanding the water uptake patterns of different vegetation types helps in predicting the impacts of land use changes and vegetation shifts on water resources.
 
-{{< plotly json="/plotly/secchi_depth.json" height="400px" >}}
+{{< plotly json="/post_files/ecohydrology/secchi_depth.json" height="400px" >}}
 
 *NOTE: This is a sample of a plotly graph*
 

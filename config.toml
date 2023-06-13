@@ -19,7 +19,7 @@ googleAnalytics = "UA-123-45"
 paginate = 10
 
 # Number of characters to show in summary.
-summaryLength = 50
+summaryLength = 20
 
 enableEmoji = true
 

@@ -28,4 +28,4 @@ When not working you can probably find Arturo reading, cooking, playing Argentin
 [UNLP]: https://unlp.edu.ar/
 [ECOAQUA]: https://www.ecoaqua.com.ar
 [SPOTIFY]: https://open.spotify.com/artist/3F3p5QYtREwN6bnOfRm4Fz?si=mqwcNBhWTjubZSkzCCQllQ
-[SMAndes]: /files/smandes.jpg 
+[SMAndes]: /smandes.jpg 
