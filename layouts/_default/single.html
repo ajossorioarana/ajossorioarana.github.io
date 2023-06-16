@@ -10,11 +10,16 @@
 			<h1 class="title">{{ .Title }}</h1>
 			<div class="meta">Posted at &mdash; {{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
 		</div>
+		{{ if .Params.toc }}
+		<div>
+			<h2>Table of Contents</h2>
+			{{ .TableOfContents }}
+		</div>
+		{{ end }}
 
 		<div class="markdown">
 			{{ .Content }}
 		</div>
-
 		<div class="post-tags">
 			{{ if ne .Type "page" }}
 				{{ if gt .Params.tags 0 }}
