@@ -5,3 +5,7 @@
 .post-content a {
     color: var(--secondary);
 }
+
+.post-content blockquote {
+    border-inline-start: 3px solid var(--secondary);
+}
