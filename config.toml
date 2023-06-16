@@ -8,6 +8,7 @@ buildFuture = false
 buildExpired = false
 googleAnalytics = "UA-123-45"
 pygmentsUseClasses = true
+copyright = "© CC-BY-4.0"
 
 [minify]
 disableXML = true
@@ -40,7 +41,7 @@ hideSummary = false
 showtoc = true
 tocopen = false
 math = true
-copyright = "© CC-BY-4.0"
+
 
   [params.assets]
   favicon = "icons/nature.png"

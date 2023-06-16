@@ -67,8 +67,6 @@ body:not(.dark) #sun {
 
 #menu a:hover {
     color: var(--secondary);
-    font-weight: bold;
-    transform: scale(0.96);
 }
 
 #menu .active {
