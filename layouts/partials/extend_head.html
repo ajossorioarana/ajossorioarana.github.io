@@ -1,0 +1,7 @@
+{{ if or .Params.math .Site.Params.math }}
+{{ partial "math.html" . }}
+{{ end }}
+
+{{ if .Params.plotly }}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+{{ end }}

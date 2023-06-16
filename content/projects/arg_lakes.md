@@ -5,7 +5,7 @@ draft: true
 plotly: true
 toc: true
 tags: ["limnology", "eutrophication", "freshwater", "python", "data analysis"]
-description: "EDA on small dataset of 103 Argentinian lakes and analysis of influence of different factors in trophic state"
+summary: "EDA on small dataset of 103 Argentinian lakes and analysis of influence of different factors in trophic state"
 ---
 
 
@@ -29,13 +29,11 @@ Beign an important problem for societies, the necessity of asses the trophic sta
 
 Carlson's TSI werw constructed in a way that when the TSI goes up by 10 represent a doubling of algal biomass. As algal biomass is difficult to measure, the TSI indexes are calculated based on Secchi disk transparency, total phosphorus and chlorophyll. The formulae for the three TSI are shown below:
 
-$$ 
-TSI_{SD} = 60 - 14.41 {\ln}(SD) 
+$$ TSI_{SD} = 60 - 14.41 {\ln}(SD) $$
 
-TSI_{TP} = 4.15 + 14.42 {\ln}(TP)
+$$ TSI_{TP} = 4.15 + 14.42 {\ln}(TP) $$
 
-TSI_{CHL-a} = 30.6 + 9.81 {\ln}(CHL-a) 
-$$
+$$ TSI_{CHL-a} = 30.6 + 9.81 {\ln}(CHL-a) $$
 
 One extremely important note is that these TSI values ***should not*** be averaged, they must be **interpreted**. The different TSI values all point to the algal biomass, using other related variables as proxy. Given a particular waterbody, an important gap between different TSI indexes is hinting towards a particualr situation of the lake's limnology. 
 
@@ -107,7 +105,7 @@ The two categorical variables are **TYPE** and **REGION**. We will explore which
 print(f"Unique values for 'TYPE': {data['TYPE'].unique().tolist()}")
 print(f"Unique values for 'REGION': {data['REGION'].unique().tolist()}")
 ```
-```
+```text
 Unique values for 'TYPE': ['lake', 'reservoir']
 Unique values for 'REGION': ['ANW', 'Pampas Mountains', 'Cuyo', 'Pampa Plain', 'Patagonian Plateau', 'Patagonian Andes']
 ```
@@ -119,7 +117,7 @@ To check how many entries we have for each value, we draw upon `value_counts()`:
 ```python
 data['TYPE'].value_counts()
 ```
-```
+```text
 TYPE
 lake         73
 reservoir    30
@@ -128,7 +126,7 @@ Name: count, dtype: int64
 ```python
 data['REGION'].value_counts()
 ```
-```
+```text
 REGION
 Patagonian Andes      39
 Pampa Plain           26

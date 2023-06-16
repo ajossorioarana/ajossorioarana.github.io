@@ -1,0 +1,7 @@
+.post-content sup > a {
+    color: var(--secondary);
+}
+
+.post-content a {
+    color: var(--secondary);
+}
