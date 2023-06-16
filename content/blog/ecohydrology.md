@@ -2,16 +2,17 @@
 title: "Ecohydrology: Investigating the Interactions between Ecosystems and Water"
 date: 2023-06-03T20:00:00-03:00
 draft: false
+toc: true
 plotly: true
 tags: ["ecohydrology", "testing"]
 summary: "A resume on key concepts of ecohydrology"
 ---
 ***NOTE*: This is placeholder text, generated with AI**
 
-# Introduction
+## Introduction
 Ecohydrology is an interdisciplinary field that explores the complex interactions between ecosystems and water resources. It focuses on understanding how water availability, movement, and quality influence ecological processes, and how ecosystems, in turn, affect water dynamics. By studying these interactions, ecohydrologists aim to develop sustainable water management strategies and enhance ecosystem resilience in the face of global environmental challenges. This article provides an overview of ecohydrology, highlighting its key concepts, methodologies, and applications.
 
-# The Water-Ecosystem Nexus
+## The Water-Ecosystem Nexus
 Water is the foundation of life on Earth, and its availability and quality are vital for sustaining healthy ecosystems. Ecosystems, including forests, wetlands, rivers, and lakes, interact with water through various biophysical and ecological processes. At the same time, these ecosystems significantly influence water quantity, quality, and flow patterns, creating a dynamic feedback loop known as the water-ecosystem nexus.
 
 *This is a sample of code*
@@ -24,7 +25,7 @@ def some_funct()
     return
 ```
 
-# Key Concepts in Ecohydrology
+## Key Concepts in Ecohydrology
 
 + **Water Balance**: Ecohydrology focuses on understanding the water balance within ecosystems, considering inputs, outputs, and storage. Inputs include precipitation and surface water inflows, while outputs include evapotranspiration, surface runoff, and groundwater recharge. By quantifying the water balance, ecohydrologists can assess the overall water availability and identify the factors influencing it.
 
@@ -37,7 +38,7 @@ def some_funct()
 + **Hydrological Connectivity**: Ecohydrology emphasizes the importance of hydrological connectivity, which refers to the movement of water and nutrients between different components of a landscape. Connectivity determines the spatial and temporal distribution of water resources and influences the functioning and productivity of ecosystems. Examining the connectivity between surface water bodies, groundwater, and adjacent ecosystems provides insights into the overall health and functioning of the ecosystem.
 
 
-# Methodologies in Ecohydrology
+## Methodologies in Ecohydrology
 
 + **Field Observations**: Field measurements are essential for collecting data on water flow, vegetation characteristics, soil moisture, and other relevant parameters. Techniques such as stream gauging, soil sampling, and vegetation surveys provide valuable information for understanding ecosystem-water interactions. These observations help validate models and provide ground-truth data for analysis.
 
@@ -45,7 +46,7 @@ def some_funct()
 
 + **Modeling**: Ecohydrological modeling combines ecological and hydrological principles to simulate and predict water-ecosystem dynamics. Models range from simple conceptual frameworks to complex numerical models. They incorporate data on climate, topography, vegetation, and soil properties to simulate water movement, nutrient cycling, and ecological processes. Models allow for scenario testing and prediction of how ecosystems may respond to different environmental conditions and management strategies.
 
-# Applications of Ecohydrology
+## Applications of Ecohydrology
 
 + **Ecosystem Restoration**: Ecohydrological principles contribute to the restoration and management of degraded ecosystems. By understanding the water requirements and feedbacks of different ecosystems, restoration efforts can be tailored to enhance water availability, improve biodiversity, and promote ecosystem services.
 
@@ -55,5 +56,5 @@ def some_funct()
 
 + **Wetland Conservation**: Wetlands are valuable ecosystems that provide numerous ecological services, such as water filtration, habitat provision, and flood control. Ecohydrology plays a vital role in assessing and conserving wetlands by examining water regime requirements, nutrient cycling, and hydrological connectivity.
 
-# Conclusion
+## Conclusion
 Ecohydrology is a multidisciplinary field that bridges the gap between ecology and hydrology, focusing on the intricate interactions between ecosystems and water resources. By investigating the water-ecosystem nexus, ecohydrologists contribute to sustainable water management, ecosystem restoration, and climate change adaptation. As the world faces increasing water scarcity and environmental challenges, ecohydrology provides valuable insights for balancing human water needs with the preservation and enhancement of ecosystem health.
