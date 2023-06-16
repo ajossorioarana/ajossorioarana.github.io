@@ -1,0 +1,13 @@
+{{$label := " "}}
+{{ with .Get 1 }}{{ $label = print "" . ""}}{{ end }}
+
+{{ with .Get 0 }}
+<form action={{ printf "https://github.com/%s" . }} target="_blank">
+    <button class="button" style="margin: 18px 0px; padding: 12px; display: flex; align-items: center; justify-content: flex-start;" type="submit">
+        <img src="/octocat-filled.svg" alt="Github logo" width="32px" style="margin: 0px 12px 0px 0px;" />
+        <p style="margin: 0;">View {{ $label }} on Github</p>
+    </button>
+</form>
+{{ else }}
+{{ errorf "missing repo data (e.g. \"aormsby/Fork-Sync-With-Upstream-action)\"" }}
+{{ end }}

@@ -1,99 +1,152 @@
 baseURL = "https://ajossorioarana.github.io/"
-languageCode = "en-us"
 title = "Arturo J. Ossorio Arana"
-theme = "ezhil"
-
+paginate = 5
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = "UA-123-45"
+pygmentsUseClasses = true
 copyright = "© CC-BY-4.0"
 
-# Enable syntax highlighting.
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
-# Your Google analytics code.
-googleAnalytics = "UA-123-45"
-# Your Disqus sortname.
-# disqusShortname = "localhost"
-
-# Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 10
-
-# Number of characters to show in summary.
-summaryLength = 50
-
-enableEmoji = true
+[minify]
+disableXML = true
+minifyOutput = true
 
 [params]
-    # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Data & Modeling in Ecohydrology's Dynamic & Rich Tapestry"
+env = "production"
+title = "Arturo J. Ossorio Arana"
+description = "Data & Modeling in Ecohydrology's Dynamic & Rich Tapestry"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+author = "Arturo J. Ossorio Arana"
+mainSections = ["blog", "projects"]
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "light"
+disableThemeToggle = true
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+math = true
 
-    # Content types which are included in home page recent posts list.
-    mainSections = ["blog", "projects"]
 
-    # Content types which are excludes Disqus comments.
-    disableDisqusTypes = ["page"]
+  [params.assets]
+  favicon = "icons/nature.png"
+  favicon16x16 = "icons/nature.png"
+  favicon32x32 = "icons/nature.png"
+  apple_touch_icon = "icons/nature.png"
+  safari_pinned_tab = "icons/nature.png"
+  disableHLJS = false
+  
 
-    # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
-    featherIconsCDN = true
+  [params.label]
+  text = "Home"
+  icon = "icons/nature.png"
+  iconHeight = 35
 
-    # Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
-    favicon = "icons/nature.png"
+# JUST USE IF PROFILE MODE
 
-    # Switch to dark mode or auto detect mode from OS (Optional).
-    # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
-    mode = "light" # "dark" or "auto"
+#   [params.profileMode]
+#   enabled = false
+#   title = "ExampleSite"
+#   subtitle = "This is subtitle"
+#   imageUrl = "<img location>"
+#   imageWidth = 120
+#   imageHeight = 120
+#   imageTitle = "my image"
 
-    # Custom CSS added to default styles. Files added to `static` folder is copied as it is to
-    # root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
-    # you can specify custom css path as `css/custom.css`.
-    customCSS = "css/override.css"
-    # Custom CSS added to dark mode style.
-    customDarkCSS = "css/custom.css"
+#     [[params.profileMode.buttons]]
+#     name = "Posts"
+#     url = "posts"
 
-    # Custom list of Javascript files to load. Just like custom CSS you can place js files under
-    # `static/js` folder and specify path here as `js/script-name.js`. You can also specify full url,
-    # for example you may want to include external JS library.
-    customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
+#     [[params.profileMode.buttons]]
+#     name = "Tags"
+#     url = "tags"
 
-# Main menu which appears below site header.
+  [params.homeInfoParams]
+  Title = "Arturo J. Ossorio Arana"
+  Content = "Data & Modeling in Ecohydrology's Dynamic & Rich Tapestry"
+  
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/ajossorioarana"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/ajossorioarana"
+
+  [[params.socialIcons]]
+  name = "stackoverflow"
+  url = "https://stackoverflow.com/users/20055088/arthuroa"
+
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = "https://github.com/ajossorioarana/ajossorioarana.github.io/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "About"
+name = "about"
 url = "/about"
-weight = 2
+weight = 10
 
 [[menu.main]]
-name = "Posts"
+name = "archive"
+url = "/archives"
+weight = 50
+
+[[menu.main]]
+name = "blog"
 url = "/blog"
-weight = 3
+weight = 20
 
 [[menu.main]]
-name = "Tags"
+name = "projects"
+url = "/projects"
+weight = 30
+
+[[menu.main]]
+name = "tags"
 url = "/tags"
-weight = 4
+weight = 40
 
 [[menu.main]]
-name = "Resume"
-url = "/files/resume.pdf"
-weight = 5
-
-# Social media links which shows up on site header.
-# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
-[[params.social]]
-name = "LinkedIn"
-icon = "linkedin"
-url = "https://www.linkedin.com/in/ajossorioarana"
-
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/ajossorioarana"
-
-
-# Enable tags.
-[taxonomies]
-   tag = "tags"
+name = "resume"
+url = "/resume.pdf"
+weight = 60
