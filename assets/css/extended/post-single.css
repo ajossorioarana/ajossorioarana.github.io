@@ -4,8 +4,40 @@
 
 .post-content a {
     color: var(--secondary);
+    box-shadow: none;
 }
 
 .post-content blockquote {
     border-inline-start: 3px solid var(--secondary);
+}
+
+.post-content a:hover {
+    box-shadow: 0 1px 0;
+}
+
+.toc a:hover {
+    box-shadow: 0 1px 0;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.post-tags a {
+    display: block;
+    padding: 3px 10px;
+    color: var(--secondary);
+    background: var(--tertiary);
+    font-weight: 500;
+    border-radius: 6px;
+    transition: transform 0.1s;
+}
+
+.post-tags a:active {
+    background: var(--tertiary);
+    transform: scale(0.96);
+}
+
+.post-tags a:hover {
+    color: var(--tertiary);
+    background: var(--secondary);
+    transform: scale(0.96);
 }
