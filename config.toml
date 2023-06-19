@@ -107,10 +107,10 @@ SiteVerificationTag = "XYZabc"
   hiddenInList = true
   hiddenInSingle = true
 
-  [params.editPost]
-  URL = "https://github.com/ajossorioarana/ajossorioarana.github.io/content"
-  Text = "Suggest Changes"
-  appendFilePath = true
+  #[params.editPost]
+  #URL = "https://github.com/ajossorioarana/ajossorioarana.github.io/tree/main/content"
+  #Text = "Suggest Changes"
+  #appendFilePath = true
 
   [params.fuseOpts]
   isCaseSensitive = false
