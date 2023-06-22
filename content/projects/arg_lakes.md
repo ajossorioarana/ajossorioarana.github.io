@@ -240,7 +240,7 @@ In the following visualization, the three TSI are plotted for each water body. R
 
 As a guide, a line was drawn where $TSI_{SD}=TSI_{TP}=TSI_{CHL}$
 
-{{< plotly json="/post_files/arg_lakes/3d_tsi.json" height="800px" >}}
+{{< plotly json="/post_files/arg_lakes/3d_tsi.json" height="900px" >}}
 
 Looking at the visualization, there are two points to take into account:
 
