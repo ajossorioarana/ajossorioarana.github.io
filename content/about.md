@@ -9,19 +9,19 @@ Born and raised in **Buenos Aires, Argentina**.
 
 Currently living in **San Martín de los Andes, Argentina**, trying to enjoy the [surroundings][SMAndes] as much as possible.
 
-BEng in **Civil Engineer** from [**UBA**][UBA] (Universidad de Buenos Aires).
+B.Eng in **Civil Engineering** from [**UBA**][UBA] (Universidad de Buenos Aires).
 
-Finishing a MSc degree in **Ecohydrology** at [**UNLP**][UNLP] (Universidad Nacional de La Plata). Defining scope and objectives of thesis with directors.
+Finishing an M.Sc. degree in **Ecohydrology** at [**UNLP**][UNLP] (Universidad Nacional de La Plata). Defining the scope and objectives of thesis with directors.
 
-Main areas of interest consists in applicaton of **coding** and **data** to tackle applied **ecohydrology** and **limnology** issues.
+Main areas of interest consist in application of **coding** and **data** to tackle applied **ecohydrology** and **limnology** issues.
 
 Currently working at [**EcoAqua**][ECOAQUA], a lake management firm, as **Limnologist / Data Analyst**.
 
 Doing freelance Python programming for a photovoltaic consulting data science project.
 
-Used to play guitar and do vocals at an traditional Argentine folk ensemble, [**Los Pulperos**][SPOTIFY]. Not active anymore, but still perform from time to time.
+Used to play guitar and do vocals at a traditional Argentine folk ensemble, [**Los Pulperos**][SPOTIFY]. Not active anymore, but still perform from time to time.
 
-When not working you can probably find Arturo reading, cooking, playing Argentine folk music, doing amateur radio, fly fishing or just having a good time with family or friends.
+When not working, you can probably find Arturo reading, cooking, playing Argentine folk music, doing amateur radio, fly-fishing, or just having a good time with family or friends.
 
 
 [UBA]: http://www.fi.uba.ar/
