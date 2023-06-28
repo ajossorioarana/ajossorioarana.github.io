@@ -7,7 +7,7 @@ toc: true
 tags: ["limnology", "eutrophication", "freshwater", "python", "data analysis", "data visualization"]
 summary: "EDA on a small dataset of 103 Argentinian lakes and analysis of the influence of different factors on trophic state"
 cover:
-  image: "/img/cover.png"
+  image: "img/cover.png"
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   alt: "lakes"
