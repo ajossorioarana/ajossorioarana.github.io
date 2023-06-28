@@ -100,31 +100,31 @@ Having the proper data inplace, I started looking at the numbers, or more correc
 
 First I plotted the total number of licenses per province, as seen below:
 
-{{< plotly json="/post_files/ham_eda/json/ham_graph1.json" height="700px" >}}
+{{< plotly json="json/ham_graph1.json" height="700px" >}}
 
 [Text explaining the huge disproportion between Buenos Aires and the rest of the country.]
 
-{{< plotly json="/post_files/ham_eda/json/ham_graph2.json" height="700px" >}}
+{{< plotly json="json/ham_graph2.json" height="700px" >}}
 
 [Text reinforcing the idea explored in the previous graph]
 
 [Text introducing the idea of licenses as percentage of population]
 
-{{< plotly json="/post_files/ham_eda/json/ham_graph4.json" height="700px" >}}
+{{< plotly json="json/ham_graph4.json" height="700px" >}}
 
 [Text reinforcing the idea but through a map]
 
-{{< plotly json="/post_files/ham_eda/json/ham_graph5.json" height="700px" >}}
+{{< plotly json="json/ham_graph5.json" height="700px" >}}
 
 [Make the point that we can already start to observe trends]
 
 [Lets see if area explains]
 
-{{< plotly json="/post_files/ham_eda/json/ham_graph7.json" height="700px" >}}
+{{< plotly json="json/ham_graph7.json" height="700px" >}}
 
 [Lets see if population density explains]
 
-{{< plotly json="/post_files/ham_eda/json/ham_graph100.json" height="700px" >}}
+{{< plotly json="json/ham_graph100.json" height="700px" >}}
 
 [Lets see if latitude explains]
 
@@ -132,11 +132,11 @@ First I plotted the total number of licenses per province, as seen below:
 
 [Lets see if salaries explains]
 
-{{< plotly json="/post_files/ham_eda/json/ham_graph100.json" height="700px" >}}
+{{< plotly json="json/ham_graph100.json" height="700px" >}}
 
 [Explore differences in categories]
 
-{{< plotly json="/post_files/ham_eda/json/ham_graph8.json" height="700px" >}}
+{{< plotly json="json/ham_graph8.json" height="700px" >}}
 
 
 ## Conclusions & Future Work
