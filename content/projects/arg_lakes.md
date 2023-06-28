@@ -4,7 +4,7 @@ date: 2023-06-21T17:00:00-03:00
 draft: false
 plotly: true
 toc: true
-tags: ["limnology", "eutrophication", "freshwater", "python", "data analysis"]
+tags: ["limnology", "eutrophication", "freshwater", "python", "data analysis", "data visualization"]
 summary: "EDA on a small dataset of 103 Argentinian lakes and analysis of the influence of different factors on trophic state"
 cover:
   image: "/smandes.jpg"
@@ -17,6 +17,7 @@ cover:
 
 ## Introduction
 
+![Lake Lácar and two private lagoons](/post_files/arg_lakes/cover.png)
 
 One of the first courses I took during my M.Sc. in Ecohydrology at UNLP was **freshwater ecology**. Being a civil engineer, I was used to analyzing different variables, especially through the use of graphs. Nevertheless, the sheer number of variables that must be taken into account when contemplating an ecological issue and the intricate interactions between the variables were both mind-blowing and intellectually stimulating. This was strengthened by my role at [**EcoAqua**][ECOAQUA], which created a two-way interaction between the need for a practical application of the concepts I was being presented in class and the theoretical validity of my approaches at work.
 
@@ -84,13 +85,15 @@ We can see that the dataset has 11 columns, two of them of `object` type, while 
 
 Calling `data.sample(5)`:
 
-| NAME      | TYPE   | REGION           |   AREA |   ZMEAN |   ALT |   LAT |   TEMP |   SDT |   TP |   TON |   CHL   |
+```text
+| NAME     | TYPE   | REGION           |   AREA |   ZMEAN |   ALT |   LAT |   TEMP |   SDT |   TP |   TON |   CHL   |
 |----------|:-------|:-----------------|-------:|--------:|------:|------:|-------:|------:|-----:|------:|--------:|
-Verde     | lake   | Patagonian Andes |    1.4 |    18.3 |   520 | 42.72 |    5   | 11    |    4 |    23 |    0.68 |
-La Chilca | lake   | Pampa Plain      |   10   |     1.5 |    55 | 35.78 |   15.5 |  1.05 |   81 |   220 |   13.5  |
-De Lobos  | lake   | Pampa Plain      |    7.5 |     1.2 |    20 | 35.27 |   16   |  0.25 |  285 |   359 |  166.2  |
-Quichaura | lake   | Patagonian Andes |    2.5 |     3.4 |   900 | 43.55 |    7.5 |  5    |   38 |    83 |    1.1  |
-Pico 4    | lake   | Patagonian Andes |    5.3 |     6.8 |   550 | 44.27 |    5   | 12    |    9 |    24 |    1.81 |
+|Verde     | lake   | Patagonian Andes |    1.4 |    18.3 |   520 | 42.72 |    5   | 11    |    4 |    23 |    0.68 |
+|La Chilca | lake   | Pampa Plain      |   10   |     1.5 |    55 | 35.78 |   15.5 |  1.05 |   81 |   220 |   13.5  |
+|De Lobos  | lake   | Pampa Plain      |    7.5 |     1.2 |    20 | 35.27 |   16   |  0.25 |  285 |   359 |  166.2  |
+|Quichaura | lake   | Patagonian Andes |    2.5 |     3.4 |   900 | 43.55 |    7.5 |  5    |   38 |    83 |    1.1  |
+|Pico 4    | lake   | Patagonian Andes |    5.3 |     6.8 |   550 | 44.27 |    5   | 12    |    9 |    24 |    1.81 |
+```
 
 We can review in the original paper what each of the fields represents:
 
@@ -122,16 +125,18 @@ We have already mentioned why discriminating between lakes and reservoirs makes 
 
 Let's now take a look at the descriptive statistics of the numerical fields by using `data.describe()`:
 
-|           |     AREA |    ZMEAN |      ALT |       LAT |      TEMP |       SDT |       TP |     TON |    CHL |
-|:----------|---------:|---------:|---------:|----------:|----------:|----------:|---------:|--------:|---------:|
-| **count** |  103     | 103      |  103     | 103       | 103       | 103       |  103     | 103     | 103      |
-| **mean**  |   73.37  |  25.6107 |  583.777 |  37.2027  |  11.866   |   4.32272 |  221.854 | 100.369 |  25.7726 |
-| **std**   |  234.396 |  36.2721 |  481.896 |   5.60313 |   5.23958 |   4.94059 |  823.341 | 125.403 |  54.056  |
-| **min**   |    0.09  |   0.7    |    2     |  24.12    |   3       |   0.03    |    1     |   6     |   0.16   |
-| **25%**   |    4.35  |   3.1    |  159.5   |  34.375   |   6       |   0.675   |    9     |  21     |   0.83   |
-| **50%**   |   12     |   8.1    |  550     |  37.88    |  14       |   2       |   30     |  45     |   6.7    |
-| **75%**   |   44.3   |  33.15   |  844.5   |  42.31    |  16       |   7.25    |  125.5   | 126     |  23.75   |
-| **max**   | 1984     | 166      | 3250     |  45.9     |  20.4     |  19       | 7912     | 762     | 405.3    |
+```text
+|       |     AREA |    ZMEAN |      ALT |       LAT |      TEMP |       SDT |       TP |     TON |    CHL   |
+|:------|---------:|---------:|---------:|----------:|----------:|----------:|---------:|--------:|---------:|
+| count |  103     | 103      |  103     | 103       | 103       | 103       |  103     | 103     | 103      |
+| mean  |   73.37  |  25.6107 |  583.777 |  37.2027  |  11.866   |   4.32272 |  221.854 | 100.369 |  25.7726 |
+| std   |  234.396 |  36.2721 |  481.896 |   5.60313 |   5.23958 |   4.94059 |  823.341 | 125.403 |  54.056  |
+| min   |    0.09  |   0.7    |    2     |  24.12    |   3       |   0.03    |    1     |   6     |   0.16   |
+| 25%   |    4.35  |   3.1    |  159.5   |  34.375   |   6       |   0.675   |    9     |  21     |   0.83   |
+| 50%   |   12     |   8.1    |  550     |  37.88    |  14       |   2       |   30     |  45     |   6.7    |
+| 75%   |   44.3   |  33.15   |  844.5   |  42.31    |  16       |   7.25    |  125.5   | 126     |  23.75   |
+| max   | 1984     | 166      | 3250     |  45.9     |  20.4     |  19       | 7912     | 762     | 405.3    |
+```
 
 There is a lot to consider in this table, but we will focus on some insights:
 + The difference between mean and median (50th percentile) is notable in a number of variables, which indicates the presence of outliers in those fields.
@@ -156,17 +161,18 @@ data['TSI-CHL'] = 30.6 + 9.81*np.log(data['CHL-a'])
 
 Finally, we can call again `data.describe()` to see the descriptive statistics of the new fields, which prints the following:
 
-|          |       VOL |   TSI-SD |   TSI-TP |   TSI-CHL |
-:----------|----------:|---------:|---------:|----------:|
- **count** |   103     | 103      | 103      |  103      |
- **mean**  |  2474.75  |  51.1536 |  56.1141 |   46.7439 |
- **std**   |  9450.34  |  21.3082 |  26.212  |   19.384  |
- **min**   |     0.324 |  17.5706 |   4.15   |   12.6224 |
- **25%**   |    14.295 |  31.4623 |  35.834  |   28.7141 |
- **50%**   |   109.34  |  50.0117 |  53.1953 |   49.2597 |
- **75%**   |   625.145 |  65.6736 |  73.8308 |   61.674  |
- **max**   | 87449     | 110.529  | 133.586  |   89.5054 |
-
+```text
+|        |       VOL |   TSI-SD |   TSI-TP |   TSI-CHL |
+:--------|----------:|---------:|---------:|----------:|
+|  count |   103     | 103      | 103      |  103      |
+|  mean  |  2474.75  |  51.1536 |  56.1141 |   46.7439 |
+|  std   |  9450.34  |  21.3082 |  26.212  |   19.384  |
+|  min   |     0.324 |  17.5706 |   4.15   |   12.6224 |
+|  25%   |    14.295 |  31.4623 |  35.834  |   28.7141 |
+|  50%   |   109.34  |  50.0117 |  53.1953 |   49.2597 |
+|  75%   |   625.145 |  65.6736 |  73.8308 |   61.674  |
+|  max   | 87449     | 110.529  | 133.586  |   89.5054 |
+```
 
 ## Variable correlation
 
