@@ -7,17 +7,17 @@ toc: true
 tags: ["limnology", "eutrophication", "freshwater", "python", "data analysis", "data visualization"]
 summary: "EDA on a small dataset of 103 Argentinian lakes and analysis of the influence of different factors on trophic state"
 cover:
-  image: "/smandes.jpg"
+  image: "/img/cover.png"
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-  alt: "lake_lacar"
-  caption: "Lake Lácar"
-  relative: false # To use relative path for cover image, used in hugo Page-bundles
+  alt: "lakes"
+  caption: "lakes"
+  relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
 ## Introduction
 
-![Lake Lácar and two private lagoons](/post_files/arg_lakes/cover.png)
+![Lakes and Lagoons](img/cover.png)
 
 One of the first courses I took during my M.Sc. in Ecohydrology at UNLP was **freshwater ecology**. Being a civil engineer, I was used to analyzing different variables, especially through the use of graphs. Nevertheless, the sheer number of variables that must be taken into account when contemplating an ecological issue and the intricate interactions between the variables were both mind-blowing and intellectually stimulating. This was strengthened by my role at [**EcoAqua**][ECOAQUA], which created a two-way interaction between the need for a practical application of the concepts I was being presented in class and the theoretical validity of my approaches at work.
 
@@ -178,7 +178,7 @@ Finally, we can call again `data.describe()` to see the descriptive statistics o
 
 One interesting step in data analysis is understanding the correlation between the different numerical variables. To accomplish this, we construct a **correlation matrix**, which can be seen below:
 
-![Correlation Matrix](/post_files/arg_lakes/corr_matrix.png)
+![Correlation Matrix](img/corr_matrix.png)
 
 Looking at the correlation matrix, we can see some interesting things:
 
@@ -199,7 +199,7 @@ Given all of this information, we will embark on a quest to find out the differe
 
 Let's see the distribution of TSI values along different geographical regions (*click on the buttons to change the TSI plotted*):
 
-{{< plotly json="/post_files/arg_lakes/regional_tsi_distr.json" height="500px" >}}
+{{< plotly json="json/regional_tsi_distr.json" height="500px" >}}
 
 + First thing to note in this visualization is that TSI-TP has greater variability than the other two for all regions except Cuyo.
 + Water bodies in the ANW and Pampa Mountains tend to be eutrophic, but the latter exhibits more variability. While both are comparable regarding TSI-SD, Pampa Mountains water bodies show greater values for the other two TSI.
@@ -212,7 +212,7 @@ Let's see the distribution of TSI values along different geographical regions (*
 
 Now we will proceed to observe the difference in TSI values between lakes and reservoirs:
 
-{{< plotly json="/post_files/arg_lakes/tsi_type.json" height="500px" >}}
+{{< plotly json="json/tsi_type.json" height="500px" >}}
 
 + While both types of water bodies exhibit similar median values, the lake's TSI values show more dispersion. This situation is exacerbated when considering TSI-TP.
 + Another observation to be made is that the lake group shows a somewhat bimodal distribution, with one group concentrated in oligotrophic conditions and the other in eutrophic conditions. This possibly stems from the fact that the "lake" label groups all artificial water bodies.
@@ -220,7 +220,7 @@ Now we will proceed to observe the difference in TSI values between lakes and re
 
 Having taken a look at the difference between man-made and natural water bodies at a country scale, we will check for regional differences:
 
-{{< plotly json="/post_files/arg_lakes/regional_tsi_type.json" height="500px" >}}
+{{< plotly json="json/regional_tsi_type.json" height="500px" >}}
 
 We gain interesting insights by performing this decoupling:
 
@@ -233,13 +233,13 @@ We gain interesting insights by performing this decoupling:
 
 Let's now devote our attention to the distribution of TSI values between shallow and deep lakes:
 
-{{< plotly json="/post_files/arg_lakes/tsi_depth.json" height="500px" >}}
+{{< plotly json="json/tsi_depth.json" height="500px" >}}
 
 As expected, shallow lakes have greater TSI values than deep ones, reinforcing the idea that mean depth is negatively correlated with trophic state. Depth, however, is not the only variable to take into account, and a great overlap region can be observed between shallow and deep lakes around TSI = [40, 70].
 
 When discriminating between regions, some nuances start to appear:
 
-{{< plotly json="/post_files/arg_lakes/regional_tsi_depth.json" height="500px" >}}
+{{< plotly json="json/regional_tsi_depth.json" height="500px" >}}
 
 + Oligotrophic lakes are almost exclusively deep water bodies in the Patagonian Andes.
 + The difference between shallow and deep water bodies TSI is greatly reduced within each region. Some hint of lower TSI for deep water bodies within a region can be seen, but the number of samples is small.
@@ -253,7 +253,7 @@ In the following visualization, the three TSI are plotted for each water body. R
 
 As a guide, a line was drawn where $TSI_{SD}=TSI_{TP}=TSI_{CHL}$
 
-{{< plotly json="/post_files/arg_lakes/3d_tsi.json" height="900px" >}}
+{{< plotly json="json/3d_tsi.json" height="900px" >}}
 
 Looking at the visualization, there are two points to take into account:
 
@@ -272,13 +272,13 @@ Some outlier water bodies are:
 
 Another way of looking at the relationship between the three TSI values is by plotting $TSI_{CHL} - TSI_{TP}$ vs. $TSI_{CHL} - TSI_{SD}$, as proposed by Carlson (1992)[^9]. This plot allows us to better visualize the possible reasons behind a difference between TSI values for a given water body. 
 
-![TSI Comparison](/post_files/arg_lakes/tsi_diff_img.png)
+![TSI Comparison](img/tsi_diff_img.png)
 
 If $TSI_{CHL} < TSI_{TP}$, phosphorus may not be limiting chlorophyll. This can be due to grazing pressure on smaller particulates, leaving only bigger ones, resulting in more transparency than expected by chlorophyll. Another possible reason for this could be that the transparency is dominated by non-algal factors such as organic matter, color, or clay particles in suspension.
 
 With this knowledge, we can look at where the measurements fall in this graph:
 
-{{< plotly json="/post_files/arg_lakes/tsi_diff.json" height="500px" >}}
+{{< plotly json="json/tsi_diff.json" height="500px" >}}
 
 Most of the water bodies that we have identified as the ones with greater differences between their TSI values appear in the lower left quadrant, which would indicate that those water bodies are not phosphorus-limited and their low transparency values are due to organic matter or clay sediments in suspension.
 
