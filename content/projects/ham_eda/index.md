@@ -147,8 +147,6 @@ As we observe that area plays a role in the explanation, I decided to observe th
 
 I suspected that population density should play an important role in explaining the differences in relative license numbers between provinces. The idea was that unpopulated regions of the country would have less infrastructure and connectivity services, and radio would play an important role in their inhabitants' lives. Contrary to what I expected, there is no clear relationship between population density and the relative number of licenses. Tierra del Fuego, Santa Cruz, and Chubut show a great number of licenses given their low density, but a lot of other provinces with low population density exhibit a lower relative number of licenses. A note should be made about CABA that, given its extremely high population density (we are talking about a city, after all), cannot be compared to this analysis.
 
-***HASTA ACA ESTA CORREGIDO***
-
 Lastly, given the fact that amateur radio equipment *can* be costly[^9], I decided to check the relationship between salaries and amateur radio licenses:
 
 {{< plotly json="json/ham_graph6.json" height="600px" >}}
