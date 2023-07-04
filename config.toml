@@ -7,7 +7,7 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 googleAnalytics = "UA-123-45"
-pygmentsUseClasses = true
+pygmentsUseClasses = false
 copyright = "© CC-BY-4.0"
 
 [minify]
@@ -152,7 +152,7 @@ url = "/resume.pdf"
 weight = 60
 
 [markup.highlight]
-noClasses = false
+noClasses = true
 # anchorLineNos = true
 codeFences = true
 guessSyntax = true
